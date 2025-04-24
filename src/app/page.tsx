@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="container mx-auto py-10">
       <h1 className="text-2xl font-bold text-center mb-5">Reiki Diario</h1>
-      <Tabs defaultOpen="phrase">
+      <Tabs defaultValue="phrase">
         <TabsList className="w-[200px] mx-auto">
           <TabsTrigger value="phrase">Frase</TabsTrigger>
           <TabsTrigger value="reikista">Info Reikista</TabsTrigger>
