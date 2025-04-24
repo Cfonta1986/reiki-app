@@ -1,11 +1,10 @@
-
 import {Card, CardContent, CardHeader, CardTitle, CardDescription} from '@/components/ui/card';
 
 const ReikistaInfo = () => {
   const reikistaData = {
     name: 'Reiki Master Sarah',
     description:
-      'Sarah is a certified Reiki Master with over 10 years of experience. She is dedicated to helping her clients find peace, balance, and healing through the power of Reiki. Contact her for a session today!',
+      'Sarah es una Maestra de Reiki certificada con más de 10 años de experiencia. Ella está dedicada a ayudar a sus clientes a encontrar paz, equilibrio y sanación a través del poder del Reiki. ¡Contáctala para una sesión hoy!',
     contact: {
       phone: '+1-555-123-4567',
       email: 'sarah@reikimaster.com',
@@ -23,9 +22,9 @@ const ReikistaInfo = () => {
         </CardDescription>
         <div className="text-center">
           <p>
-            <strong>Contact:</strong>
+            <strong>Contacto:</strong>
           </p>
-          <p>Phone: {reikistaData.contact.phone}</p>
+          <p>Teléfono: {reikistaData.contact.phone}</p>
           <p>Email: {reikistaData.contact.email}</p>
         </div>
       </CardContent>
