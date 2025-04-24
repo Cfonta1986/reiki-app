@@ -1,8 +1,7 @@
-
 'use client';
 
 import * as React from 'react';
-import {ThemeContext, ThemeProvider as NextThemesProvider} from 'next-themes';
+import {ThemeProvider as NextThemesProvider} from 'next-themes';
 
 interface ThemeProviderProps extends React.HTMLAttributes<HTMLElement> {
   children: React.ReactNode;
@@ -16,4 +15,4 @@ function ThemeProvider({children, ...props}: ThemeProviderProps) {
   return <NextThemesProvider {...props}>{children}</NextThemesProvider>;
 }
 
-export {ThemeProvider, ThemeContext};
+export {ThemeProvider};
